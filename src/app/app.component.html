@@ -1,0 +1,13 @@
+<div class="container">
+  <header class="header">
+    <h1>AngularEditor</h1>
+    <p>Bus Ticket Price Counting</p>
+  </header>
+  <span>Enter Input Value</span>
+  <input [(ngModel)]="inputVal" />
+  <br />
+  <button (click)="calPrice()">Calculate Price</button>
+  <br />
+
+  Estimated price: {{ toPrintData }}
+</div>
